@@ -1,12 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap');
 
-h1{
+h1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 30px;
     text-align: center;
-    color: rgb(63, 63, 28);
+    color: rgb(64, 65, 53);
 }
 
 body{
     background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1614382362_31-p-fon-dlya-prezentatsii-svetlii-spokoinii-33.png");
+}
+
+img{
+    width: 200px;
+    -align: center;
+}
+
+.card {
+    width: 400px;
+    margin: 30px auto;
+    box-shadow: 0 5px 10px #ccc;
+    border-radius: 10px;
+}
+
+.card-photo {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 30px auto;
+    border-radius: 50%;
+}
+
+.card-title {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(64, 65, 53);
+}
+
+.main-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: medium;
+    margin-left: 30px;
+}
+
+p {
+    font-size: medium;
+    font-family: 'Source Sans Pro', sans-serif;
 }
