@@ -1,83 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&display=swap');
 
 body {
-    margin : 0;
+    margin: 0;
 }
 
-.first {
-    height: 100vh;
+header {
     width: 100%;
-    background-color: aliceblue;
-    flex-direction: column;
+    height: 70px;
+    background-color: rgb(55,113,161);
+    margin-top: 50px;
 }
 
-.first>header>nav {
+.top-menu {
     display: flex;
     justify-content: space-between;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 59px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #3771A2;
-}
-
-nav>a, nav>a:link, nav>a:visited, nav>a:active {
-    color: #3771A2
-}
-
-hr {
-    width: 1440.01px;
-    height: 0px;
-    left: 0px;
-    top: 82px;
-
-    border: 1px solid #000000;
-}
-
-.name {
-    width: 452px;
-    height: 155px;
-    left: 84px;
-    top: 118px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 59px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #3771A2;
-}
-
-.name_2 {
-    width: 531px;
-    height: 155px;
-    left: 787px;
-    top: 118px;
-
-    font-family: Montserrat;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 59px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #3771A2;
-}
-
-div {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    text-align: right;
+    margin-left: auto;
+    list-style: none;
 }
