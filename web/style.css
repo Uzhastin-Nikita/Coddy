@@ -1,3 +1,7 @@
+*{
+    background-color: rgb(21,20,29);
+}
+
 .image-1 {
     position: absolute;
     width: 1440px;
@@ -14,4 +18,38 @@
     height: 206px;
     left: 800px;
     background: url(image.png);
+}
+
+.image-3 {
+    position: relative;
+    width: 323px;
+    height: 300px;
+    left: -720px;
+}
+
+.rectangle {
+    position: absolute;
+    width: 1200px;
+    height: 150px;
+    left: 82px;
+    top: 1080px;
+
+    background: #24364E;
+    border-radius: 50px;
+}
+
+.text-rectangle {
+    position: absolute;
+    width: 744px;
+    height: 104px;
+
+    font-family: Share;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #D3AE69;
 }
